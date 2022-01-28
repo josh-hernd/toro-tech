@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	%svelte.head%
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="manifest" crossorigin="use-credentials" href="manifest.json" />
+	<script src="/js/smooth.js"></script>
+</head>
+
+<body id="top">
+	<div id="svelte">%svelte.body%</div>
+</body>
+<script>
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 300,
+	customEasing: function (time) {
+		return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+	}
+});
+</script>
+
+</html>

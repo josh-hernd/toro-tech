@@ -1,0 +1,137 @@
+{
+    "title": "Toro Tech Security",
+    "description": "Surveillance Cameras & Burglar Alarm & Intercoms",
+    "keywords": "security home systems, home security, camera security systems, security camera, security system, camera systems, best security systems, security cameras systems, alarm systems, security cameras.",
+    "og_image": "/svg/jpg/toro-tech-security-og-image-1440x800.jpeg",
+    "site_url": "www.techtemp.com",
+    "logo": {
+        "src": "/svg/logo-main.svg",
+        "alt": "Toro Tech Security",
+        "id": "logo",
+        "url": "/"
+    },
+    "favicon": {
+        "src": "/svg/favicon.png"
+    },
+    "full_header": {
+        "title": "Surveillance Cameras & Burglar Alarm & Intercoms",
+        "img": {
+            "src": "/svg/jpg/toro-tech-security-og-image-1440x800.jpeg",
+            "alt": "Toro Tech Security"
+        }
+    },
+    "content": {
+        "title": "Invest in protecting your business and family",
+        "paragraph": "Security camera systems professionally Installed"
+    },
+    "content_1": {
+        "title": "Torotech Security is the security system supplier and installation you have been looking for in New York",
+        "paragraph": "We believe in honest pricing, exceptional service and hard work to provide you with an incredible variety of products. We are here to get the job done."
+    },
+    "blurbs": [
+        {
+            "img": {
+                "src": "/svg/icons/sample.svg",
+                "alt": "Safe Tech icon"
+            },
+            "title": "Safe",
+            "desc": "Indoor & outdoor security"
+        },
+        {
+            "img": {
+                "src": "/svg/icons/alarm.svg",
+                "alt": "Smart Tech icon"
+            },
+            "title": "Smart",
+            "desc": "Remote access control"
+        },
+        {
+            "img": {
+                "src": "/svg/icons/lock.svg",
+                "alt": "Secure Tech icon"
+            },
+            "title": "Secure",
+            "desc": "Detect suspicious behavior"
+        }
+    ],
+    "grids": [
+        {
+            "lean": "left",
+            "img": {
+                "src": "/svg/jpg/surveillance-cameras-720x605.jpeg",
+                "alt": "Surveillance Cameras"
+            },
+            "title": "Surveillance Cameras",
+            "desc": "If your business or home requires amazing quality products at an unbeatable market price, you have come to the right place. Torotech Security offers incredible service and products to the community of New York and is happy to do the same for you."
+        },
+        {
+            "lean": "right",
+            "img": {
+                "src": "/svg/jpg/burglar-alarm-720x605.jpeg",
+                "alt": "Burglar Alarm"
+            },
+            "title": "Burglar Alarm",
+            "desc": "One of the biggest decisions that you will ever make, is choosing the right security company to protect your home and more importantly your family! Every home and homeowner require a different level of desired protection, we custom design every burglar Alarm System to fit each homeowners and business specific needs and budget."
+        },
+        {
+            "lean": "left",
+            "img": {
+                "src": "/svg/jpg/intercoms-720x605.jpeg",
+                "alt": "Intercoms"
+            },
+            "title": "Intercoms",
+            "desc": "This item is among the best selling products we supply at Torotech Security and is a real customer favorite. We suggest you check out our inventory to see if this product is available, or contact one of our representatives to make an order. We guarantee you won’t be able to find better quality elsewhere."
+        }
+    ],
+    "footer": {
+        "title": "Contact Us",
+        "blurbs": [
+            {
+                "icon": {
+                    "src": "/svg/icons/phone-icon.svg",
+                    "alt": "Phone icon"
+                },
+                "title": "(516)784-3233",
+                "ref": "tel:5167843233",
+                "target": ""
+            },
+            {
+                "icon": {
+                    "src": "/svg/icons/email-icon.svg",
+                    "alt": "Email icon"
+                },
+                "title": "info@torotechsecurityny.com",
+                "ref": "mailto:info@torotechsecurityny.com",
+                "target": ""
+            },
+            {
+                "icon": {
+                    "src": "/svg/icons/pin-icon.svg",
+                    "alt": "Address icon"
+                },
+                "title": "979 Nassau Rd, Uniondale, NY 11553",
+                "ref": "https://g.page/Torotech-Security?share",
+                "target": "_blank"
+            }
+        ],
+        "socials": [
+            {
+                "icon": {
+                    "src": "/svg/icons/socials/facebook-icon.svg",
+                    "alt": "Tech icon"
+                },
+                "ref": "https://www.facebook.com/torotech_security/",
+                "target": "_blank"
+            },
+            {
+                "icon": {
+                    "src": "/svg/icons/socials/instagram-icon.svg",
+                    "alt": "Instagram icon"
+                },
+                "ref": "https://www.instagram.com/torotech_security/",
+                "target": "_blank"
+            }
+        ],
+        "copy": "Toro Tech Security"
+    }
+}
