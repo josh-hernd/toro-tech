@@ -2,7 +2,7 @@
     "title": "Toro Tech Security",
     "description": "Surveillance Cameras & Burglar Alarm & Intercoms",
     "keywords": "security home systems, home security, camera security systems, security camera, security system, camera systems, best security systems, security cameras systems, alarm systems, security cameras.",
-    "og_image": "/svg/jpg/toro-tech-security-og-image-1440x800.jpeg",
+    "og_image": "/jpg/toro-tech-security-og-image-1440x800.jpeg",
     "site_url": "www.techtemp.com",
     "logo": {
         "src": "/svg/logo-main.svg",
@@ -11,54 +11,71 @@
         "url": "/"
     },
     "favicon": {
-        "src": "/svg/favicon.png"
+        "src": "/favicon.png"
     },
     "full_header": {
-        "title": "Surveillance Cameras & Burglar Alarm & Intercoms",
+        "entry": {
+            "subtitle": "Solid solution for your home and office",
+            "headline": "Surveillance Cameras & Burglar Alarm & Intercoms"
+        },
+        "lead_button": {
+            "url": "/#contact",
+            "label": "Get In Touch"
+        },
         "img": {
-            "src": "/svg/jpg/toro-tech-security-og-image-1440x800.jpeg",
+            "src": "/jpg/toro-tech-security-og-image-1440x800.jpeg",
             "alt": "Toro Tech Security"
         }
     },
     "content": {
-        "title": "Invest in protecting your business and family",
-        "paragraph": "Security camera systems professionally Installed"
-    },
-    "content_1": {
-        "title": "Torotech Security is the security system supplier and installation you have been looking for in New York",
-        "paragraph": "We believe in honest pricing, exceptional service and hard work to provide you with an incredible variety of products. We are here to get the job done."
-    },
-    "blurbs": [
-        {
-            "img": {
-                "src": "/svg/icons/sample.svg",
-                "alt": "Safe Tech icon"
+        "sideImg": {
+            "smallImg": {
+                "src": "/jpg/surveillance-cameras-182x191.jpeg",
+                "atl": "surveillance-cameras"
             },
-            "title": "Safe",
-            "desc": "Indoor & outdoor security"
+            "largeImg": {
+                "src": "/jpg/surveillance-camera-installation-412x484.jpeg",
+                "atl": "surveillance-camera-installation"
+            }
         },
-        {
-            "img": {
-                "src": "/svg/icons/alarm.svg",
-                "alt": "Smart Tech icon"
-            },
-            "title": "Smart",
-            "desc": "Remote access control"
+        "entry": {
+            "announcer": "About Us",
+            "title": "The security system supplier and installation you've been looking for",
+            "paragraph": "At Toro Tech Security, we believe in honest pricing, exceptional service and hard work to provide you with an incredible variety of products. We're here to get the job done."
         },
-        {
-            "img": {
-                "src": "/svg/icons/lock.svg",
-                "alt": "Secure Tech icon"
+        "blurbs": [
+            {
+                "img": {
+                    "src": "/svg/icons/sample.svg",
+                    "alt": "Safe Tech icon"
+                },
+                "title": "Safe",
+                "desc": "Indoor & outdoor security"
             },
-            "title": "Secure",
-            "desc": "Detect suspicious behavior"
-        }
-    ],
+            {
+                "img": {
+                    "src": "/svg/icons/alarm.svg",
+                    "alt": "Smart Tech icon"
+                },
+                "title": "Smart",
+                "desc": "Remote access control"
+            },
+            {
+                "img": {
+                    "src": "/svg/icons/lock.svg",
+                    "alt": "Secure Tech icon"
+                },
+                "title": "Secure",
+                "desc": "Detect suspicious behavior"
+            }
+        ]
+    },
     "grids": [
         {
             "lean": "left",
+            "announcer": "Services",
             "img": {
-                "src": "/svg/jpg/surveillance-cameras-720x605.jpeg",
+                "src": "/jpg/surveillance-cameras-720x605.jpeg",
                 "alt": "Surveillance Cameras"
             },
             "title": "Surveillance Cameras",
@@ -67,7 +84,7 @@
         {
             "lean": "right",
             "img": {
-                "src": "/svg/jpg/burglar-alarm-720x605.jpeg",
+                "src": "/jpg/burglar-alarm-720x605.jpeg",
                 "alt": "Burglar Alarm"
             },
             "title": "Burglar Alarm",
@@ -76,13 +93,26 @@
         {
             "lean": "left",
             "img": {
-                "src": "/svg/jpg/intercoms-720x605.jpeg",
+                "src": "/jpg/intercoms-720x605.jpeg",
                 "alt": "Intercoms"
             },
             "title": "Intercoms",
             "desc": "This item is among the best selling products we supply at Torotech Security and is a real customer favorite. We suggest you check out our inventory to see if this product is available, or contact one of our representatives to make an order. We guarantee you won’t be able to find better quality elsewhere."
         }
     ],
+    "opt_in": {
+        "entry": {
+            "title": "Invest in protecting your business and family",
+            "desc": "Security camera systems professionally Installed"
+        },
+        "lead_button": {
+            "url": "/#contact",
+            "label": "Get In Touch"
+        },
+        "styled": {
+            "bgImg": "/jpg/background.jpeg"
+        }
+    },
     "footer": {
         "title": "Contact Us",
         "blurbs": [
@@ -114,6 +144,39 @@
                 "target": "_blank"
             }
         ],
+        "hours": {
+            "title": "Hours",
+            "list": [
+                {
+                    "day": "Monday",
+                    "time": "8am-5pm"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "8am-5pm"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "8am-5pm"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "8am-5pm"
+                },
+                {
+                    "day": "Friday",
+                    "time": "8am-5pm"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "9am-1pm"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "Closed"
+                }
+            ]
+        },
         "socials": [
             {
                 "icon": {

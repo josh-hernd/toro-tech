@@ -11,6 +11,7 @@
 	let idx = 0;
 </script>
 
+<div class="reviews" id="reviews">
 {#if revArr.status === 'REQUEST_DENIED' || revArr.status == 'NOT_FOUND'}
 	<div class="reviews_wrap">
 		<div class="head_review">
@@ -59,109 +60,101 @@
 		</div>
 	</div>
 {/if}
+</div>
+<style lang="sass">
+h3,
+h4
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)
 
-<style>
-	h4 {
-		margin: 10px 0;
-	}
-
-	.reviews_wrap {
-		width: 100%;
-		padding: 80px;
-		position: relative;
-		margin: auto;
-	}
-
-	.head_review {
-		display: flex;
-		justify-content: space-between;
-		padding-bottom: 10px;
-		border-bottom: 2px solid #9b9b9b;
-	}
-
-	.container {
-		position: relative;
-	}
-
-	button {
-		height: 100%;
-		margin: 5px;
-		z-index: 10;
-		background-color: #0000;
-		background-repeat: no-repeat;
-		border: none;
-		cursor: pointer;
-		overflow: hidden;
-		outline: none;
-	}
-
-	button:disabled {
-		opacity: 0.2;
-	}
-
-	.previous,
-	.next {
-		z-index: 1;
-	}
-
-	.previous {
-		position: absolute;
-		top: 0%;
-		left: 0;
-	}
-
-	.next {
-		position: absolute;
-		top: 0%;
-		right: 0;
-	}
-
-	.review {
-		text-align: center;
-		padding: 25px 0;
-	}
-
-	.meta_text {
-		width: 70%;
-		margin: auto;
-	}
+h4 
+	margin: 10px 0
 	
-	.stars {
-		text-align: center;
-		padding: 10px;
-	}
+.reviews 
+	position: relative
+	padding: 80px 40px
+	
+.reviews_wrap 
+	width: 100%
+	padding: 80px
+	position: relative
+	margin: auto
 
-	@media (min-width: 1440px) {
-		
-		.reviews_wrap {
-			width: 70%;
-			padding: 80px 20px;
-		}
-	}
+.head_review 
+	display: flex
+	justify-content: space-between
+	padding-bottom: 10px
+	border-bottom: 2px solid #9b9b9b
 
-	@media (max-width: 850px) {
-		.reviews_wrap {
-			padding: 40px 20px;
-			text-align: center;
-		}
+.container 
+	position: relative
 
-		.head_review {
-			display: block;
-		}
+button 
+	height: 100%
+	margin: 5px
+	z-index: 10
+	background-color: #0000
+	background-repeat: no-repeat
+	border: none
+	cursor: pointer
+	overflow: hidden
+	outline: none
 
-		.meta_text {
-		width: 100%;
-		}
-		.toggles {
-			padding: 15px 0;
-		}
+button:disabled 
+	opacity: 0.2
 
-		.previous {
-			left: -45px;
-		}
+.previous,
+.next 
+	z-index: 1
 
-		.next {
-			right: -45px;
-		}
-	}
+.previous 
+	position: absolute
+	top: 0%
+	left: 0
+
+.next 
+	position: absolute
+	top: 0%
+	right: 0
+
+.review 
+	text-align: center
+	padding: 25px 0
+	img
+		-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6))
+		filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.6))
+.meta_text 
+	width: 70%
+	margin: auto
+
+.stars 
+	text-align: center
+	padding: 10px
+	img
+		-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1))
+		filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1))
+@media (min-width: 1440px) 
+	
+	.reviews_wrap 
+		width: 70%
+		padding: 80px 20px
+	
+@media (max-width: 850px) 
+	.reviews_wrap 
+		padding: 40px 20px
+		text-align: center
+	
+	.head_review 
+		display: block
+	
+	.meta_text 
+		width: 100%
+	
+	.toggles 
+		padding: 15px 0
+	
+	.previous 
+		left: -45px
+	
+	.next 
+		right: -45px
 </style>

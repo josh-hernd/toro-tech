@@ -13,38 +13,32 @@
 	</div>
 </header>
 
-<style>
-	header {
-		position: fixed;
-		width: 100%;
-		top: 0;
-		left: 0;
-		background-color: var(--default-header-color);
-		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
-	}
+<style lang="sass">
+	header 
+		position: fixed
+		width: 100%
+		top: 0
+		left: 0
+		background-color: var(--default-header-color)
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15)
 
-	.wrap {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 28px 80px;
-	}
+	.wrap 
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 28px 80px
 
-	#logo img {
-		user-select: none;
-	}
+	#logo img 
+		user-select: none
 
-	ul {
-		display: flex;
-		justify-content: space-around;
-	}
+	ul 
+		display: flex
+		justify-content: space-around
 
-	li {
-		margin: 0 10px;
-	}
+	li 
+		margin: 0 10px
 
-	a {
-		font-size: 16px;
-		font-weight: var(--medium);
-	}
+	a 
+		font-size: 16px
+		font-weight: var(--medium)
 </style>
