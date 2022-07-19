@@ -7,7 +7,7 @@
 </script>
 <svg width="783" height="785" viewBox="0 0 783 782" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<circle cx="391.367" cy="390.602" r="367.875" style="color: {open ? menuColor : burgerColor};"/>
-	<g class=" ani" style="color: {open ? menuColor : burgerColor}; fill: {duration}s ease-in-out;">
+	<g class="ani" style="color: {open ? menuColor : burgerColor}; fill: {duration}s ease-in-out;">
 		<path
 			d="M368.692 9.93323C170.367 21.5814 12.8413 185.031 10.6398 385.758H0C2.16707 182.642 159.054 16.6314 358.386 0L368.692 9.93323Z"
 		/>
@@ -23,24 +23,21 @@
 	</g>
 </svg>
 
-<style>
-	svg path, svg circle {
-		fill: currentColor;
-	}
+<style lang="sass">
+svg
+	-webkit-filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 0.15))
+	filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 0.15))
+svg path, svg circle 
+	fill: currentColor
 
-	.ani {
-		animation-duration: 6.5s;
-		animation-iteration-count: infinite;
-		animation-name: rotation;
-		transform-origin: 50% 50%;
-	}
-
-	@keyframes rotation {
-		from {
-			-webkit-transform: rotate(0deg);
-		}
-		to {
-			-webkit-transform: rotate(360deg);
-		}
-	}
+.ani 
+	animation-duration: 6.5s 
+	animation-iteration-count: infinite 
+	animation-name: rotation 
+	transform-origin: 50% 50% 
+@keyframes rotation 
+		from 
+			-webkit-transform: rotate(0deg) 
+		to 
+			-webkit-transform: rotate(360deg)
 </style>

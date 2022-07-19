@@ -8,12 +8,12 @@
         "sizes": "512x512"
       },
       {
-        "src": "/svg/favicon.png",
+        "src": "/favicon.png",
         "type": "image/png",
         "sizes": "128x128"
       },
       {
-        "src": "/svg/favicon-192x192.png",
+        "src": "/favicon-192x192.png",
         "type": "image/png",
         "sizes": "192x192"
       }
@@ -29,18 +29,18 @@
         "short_name": "Toro Tech",
         "description": "Surveillance Cameras & Burglar Alarm & Intercoms",
         "url": "/?source=pwa",
-        "icons": [{ "src": "/svg/favicon-192x192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
       }
     ],
     "description": "Toro Tech Security",
     "screenshots": [
       {
-        "src": "/svg/jpg/surveillance-cameras-720x605.jpeg",
+        "src": "/jpg/surveillance-cameras-720x605.jpeg",
         "type": "540x720",
         "sizes": "720x605"
       },
       {
-        "src": "/svg/jpg/surveillance-cameras-720x605.jpeg",
+        "src": "/jpg/surveillance-cameras-720x605.jpeg",
         "type": "image/jpg",
         "sizes": "540x720"
       }

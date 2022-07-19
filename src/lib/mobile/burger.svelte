@@ -38,32 +38,26 @@
 	</svg>
 </button>
 
-<style>
-    button {
-		position: relative;
-		margin: 5px;
-		z-index: 10;
-		background-color: Transparent;
-		background-repeat: no-repeat;
-		border: none;
-		cursor: pointer;
-		overflow: hidden;
-		outline: none;
-	}
-	svg line {
-		stroke: currentColor;
-		stroke-width: 3;
-	}
-	/* rotate the top line */
-	.open #top {
-		transform: translate(10px, 0px) rotate(45deg);
-	}
-	/* hide the middle */
-	.open #mid {
-		opacity: 0;
-	}
-	/* rotate the bottom line */
-	.open #bot {
-		transform: translate(-15px, 8px) rotate(-45deg);
-	}
+<style lang="sass">
+button 
+	position: relative 
+	margin: 5px 
+	z-index: 10 
+	background-color: Transparent 
+	background-repeat: no-repeat 
+	border: none 
+	cursor: pointer 
+	overflow: hidden 
+	outline: none 
+svg 
+	line 
+		stroke: currentColor 
+		stroke-width: 3 
+.open 
+	#top 
+		transform: translate(10px, 0px) rotate(45deg) 
+	#mid 
+		opacity: 0 
+	#bot 
+		transform: translate(-15px, 8px) rotate(-45deg)
 </style>
